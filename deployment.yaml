@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-example
+  labels:
+    app: helloexample
+spec:
+  containers:
+  - name: latest
+    image: anchitaaa25/new-demo
+    ports:
+      - containerPort: 3000
